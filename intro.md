@@ -29,6 +29,8 @@
 * 运营着一百多人的前端学习社群。
 
 ## 联系我们
+可以填下这个表单 -> https://www.wenjuan.com/s/AzYNJzd/
+或
 微信扫下面的二维码。添加时麻烦备注：知行社。
 ![微信扫一扫](http://upload-images.jianshu.io/upload_images/7219342-4bebb498e4aa6402.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
