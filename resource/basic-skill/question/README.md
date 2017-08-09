@@ -1,4 +1,4 @@
-# 如何提问
+# 如何提问?
 ![](http://upload-images.jianshu.io/upload_images/7219342-1ceafe0eb77c5dc5.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 提问是门艺术！提问要遵循以下3点：

@@ -3,4 +3,4 @@
 * 完整的流程
   * [任务的使用说明](task.md)
   * [教程的使用说明](course.md)
-  * 遇到问题怎么办
+  * [遇到问题怎么办](question-happened.md)

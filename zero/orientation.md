@@ -21,7 +21,7 @@
 请认真阅读如下文档：
 * [任务的使用说明](http://www.jianshu.com/p/2053ab47a70d)
 * [教程的使用说明](http://www.jianshu.com/p/89ff10491df5)
-* 遇到问题怎么办
+* [遇到问题怎么办](http://www.jianshu.com/p/6cf8160c9c99)
 
 ## 开始学习   
 经过以上的准备工作，我们可以开始动手学习前端知识了。按照任务列表顺序往下去完成任务就可以了。任务列表，点[这里](http://www.jianshu.com/p/d7376797e079)。
