@@ -9,8 +9,11 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "canvas": "^1.6.6",
     "iconv-lite": "^0.4.18",
+    "moment": "^2.18.1",
     "nodejieba": "^2.2.5",
-    "request": "^2.81.0"
+    "request": "^2.81.0",
+    "wordcloud": "^1.0.6"
   }
 }
