@@ -31,6 +31,8 @@ h1 {
   color: #2b2b2b;
   font-size: 24px;
 }
+
+
 .logo {
   margin-right: 10px;
   height: 60px;
@@ -116,5 +118,92 @@ h1 {
 
 .card>a{
   display: block;
+}
+
+.wechat{
+  width: 200px;
+}
+.toggle-btn {
+  display: none;
+}
+@media (max-width: 768px) {
+  .toggle-btn {
+    display: block;
+    padding: 10px;
+    position: absolute;
+    right: 17px;
+    top: 12px;
+    width: 40px;
+    background-color: #f9f9f9;
+  }
+  .icon-bar {
+    display: block;
+    height: 2px;
+    background-color: #4FC08D;
+    border-radius: 1px;
+  }
+  .icon-bar+.icon-bar{
+    margin-top: 4px;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .sidebar.show{
+    position: static;
+    width: 100%;
+    border-right: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .nav__item {
+    width: 100%;
+  }
+  .content__detail {
+    padding: 10px 0 0 0;
+
+  }
+  .main {
+    margin-left: 0;
+  }
+  .type-name{
+    padding-left: 24px;
+
+  }
+  .card{
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding-left: 24px;
+    border: 1px solid #f2f2f2;
+  }
+
+
+  .card:last-child{
+    margin-bottom: 10px;
+  }
+  
+  .collapse {
+    display: none;
+    position: static;
+    width: 100%;
+    border-right: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .collapse.in {
+    display: block;
+
+  }
+  
+
+  .collapsing {
+    height: 0;
+    overflow: hidden;
+    transition: height .377s ease;
+  }
+
 }
 

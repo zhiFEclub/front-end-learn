@@ -231,13 +231,48 @@
     el: '#app',
     data: {
       navs: navs,
-      current: 'task'
+      current: 'task',
+      isShowNav: true,
+      isMobile: document.body.clientWidth < 768
     },
+    watch: {
+      isShowNav: function() {
+        var el = document.querySelector('.sidebar')
 
+        if(this.isShowNav) {
+          el.classList.add('show')
+          this.$nextTick(function () {
+            el.style.overflow = 'hidden'
+            el.style.visibility = 'hidden'
+            el.classList.remove('collapse')
+            el.style.display = 'block'
+            var height = el.scrollHeight + 'px'
+            el.style.height = 0
+
+            setTimeout(function(){
+              el.style.visibility = 'visible'
+              el.classList.add('collapsing')
+              el.style.height = height
+            }, 0)
+          })
+        } else {
+          el.classList.remove('show','collapsing')
+        }
+      }
+    },
     methods: {
       switchTab: function(type) {
         this.current = type
+        if(this.isMobile) {
+          this.isShowNav = false
+        }
       },
+      toggleNav: function() {
+        this.isShowNav = !this.isShowNav
+      },
+    },
+    mounted: function() {
+      this.isShowNav = !this.isMobile
     }
   })
 })()
