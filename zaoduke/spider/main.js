@@ -15,6 +15,7 @@ var standardWords = {
   'angular': 'Angular',
   'vue': 'Vue.js',
   'vue.js': 'Vue.js',
+  'webpack': 'Webpack'
 }
 
 
@@ -76,7 +77,7 @@ request({
     var fs = require('fs');
       fs.writeFile(target.format('YYYY-MM-DD') + ".md", outputMD(resArr, useToday), function(e){
       if(e) throw e;
-      console.log('一些')
+      console.log('完成！')
     })
     
   }
@@ -87,10 +88,10 @@ function outputMD(keywordArticles, useToday) {
   var title = '抓取' + (useToday ? '今天' : '昨天') + '在[掘金网](https://juejin.im/)上最新发布的50篇前端文章，概要：'
   var summary =  title + keywordArticles.map(item => {
     return item.keyword + '(' + item.num + '篇)'
-  }).join()
+  }).join() + '。'
 
   var res = keywordArticles.map(item => {
-    var res = '## ' + item.keyword + '\n'
+    var res = '## 标签：' + item.keyword + '\n'
     var list = item.list
     res = res + list.map(item => {
       return [
