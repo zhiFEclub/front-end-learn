@@ -7,9 +7,9 @@
 </head>
 <body>
   <div class="header">
-    <h1>零基础班链接导航</h1>
+    <h1><img src="imgs/logo.png" alt="知行社Logo" class="logo">零基础班链接导航</h1>
   </div>
-  <div class="main" id="app">
+  <div class="main" id="app" v-cloak>
     <nav class="sidebar">
       <ul class="nav" >
         <li class="nav__item" :class="{'nav__item--current': nav.id == current}" v-for="nav in navs" :key="nav.id" @click="switchTab(nav.id)">
@@ -40,6 +40,10 @@
         </div>
 
         <div v-if="nav.id == 'contract'">
+          <dl>
+            <dt>微信:</dt>
+            <dd><img src="imgs/wechat.png" alt=""></dd>
+          </dl>
           <dl>
             <dt>手机号: 13913134070</dt>
             <dd></dd>
