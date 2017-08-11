@@ -90,6 +90,14 @@
     id: 'course',
     name: '教程',
     detail: [{
+      type: '前端介绍',
+      content: [{
+        name: '前端介绍'
+      }, {
+        name: '必备软件的安装'
+      }]
+    },
+    {
       type: 'HTML',
       content: [{
         name: 'HTML 介绍',
@@ -191,7 +199,7 @@
       url: 'http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html'
     },{
       name: 'Javascript API',
-      url: 'http://overapi.com/javascript/'
+      url: 'http://overapi.com/javascript'
     },{
       name: 'jQuery API',
       url: 'http://oscarotero.com/jquery/'
