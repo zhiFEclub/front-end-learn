@@ -7,6 +7,7 @@ var standardWords = {
   'Html': 'HTML',
   'css': 'CSS',
   'js': 'JavaScript',
+  'JS': 'JavaScript',
   'javascript': 'JavaScript',
   'dom': 'DOM',
   'Dom': 'DOM',
@@ -36,7 +37,8 @@ request({
     var today = moment()
     var yesterday = moment().subtract(1, 'days')
     // 如果是上午，拿昨天的，否则拿今天的
-    var useToday = today.hour() > 12
+    // var useToday = today.hour() > 12
+    var useToday = true
     var target = useToday ? today : yesterday
 
     var resObj = {}
