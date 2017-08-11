@@ -16,6 +16,7 @@
         url: 'http://www.jianshu.com/p/aefb985f0de7'
       }, {
         name: '较复杂页面的练习',
+        url: 'http://www.jianshu.com/p/6d9a1bb4106d'
       }]
     }, {
       type: 'CSS',

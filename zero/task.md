@@ -2,7 +2,7 @@
 ### HTML 任务
 1. [常用标签总结](http://www.jianshu.com/p/bf175e31fb5f)
 1. [网站导航](http://www.jianshu.com/p/aefb985f0de7)
-1. 较复杂页面的练习
+1. [较复杂页面的练习](http://www.jianshu.com/p/6d9a1bb4106d)
 
 ### CSS 任务
 1. 美化网站导航
