@@ -1,7 +1,7 @@
 # 零基础 任务列表
 ### HTML 任务
 1. [常用标签总结](http://www.jianshu.com/p/bf175e31fb5f)
-1. 网站导航
+1. [网站导航](http://www.jianshu.com/p/aefb985f0de7)
 1. 较复杂页面的练习
 
 ### CSS 任务
