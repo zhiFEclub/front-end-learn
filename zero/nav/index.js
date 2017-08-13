@@ -104,7 +104,7 @@
       {
         name: '学习方法',
         url: 'http://www.jianshu.com/p/9121a012b34b',
-      }
+      },
       {
         name: '如何克服拖延？',
         url: 'http://www.jianshu.com/p/0ce54058bbdf'
