@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>零基础导航</title>
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <div id="app" v-cloak>
     <div class="header">
@@ -18,13 +20,12 @@
     </div>
     <div class="main">
       <nav class="sidebar" v-show="isShowNav">
-        <ul class="nav" >
+        <ul class="nav">
           <li class="nav__item" :class="{'nav__item--current': nav.id == current}" v-for="nav in navs" :key="nav.id" @click="switchTab(nav.id)">
             <a :href="nav.url? nav.url : 'javascript:void(0)'" :target="nav.url ? '_blank' : '_self'">{{nav.name}}</a>
           </li>
         </ul>
       </nav>
-
       <div class="main__detail">
         <div class="content__detail" v-for="nav in navs" v-if="nav.id == current">
           <div v-if="nav.detail && nav.detail.length > 0">
@@ -46,7 +47,80 @@
               </ol>
             </div>
           </div>
-
+          <!-- 学前准备 -->
+          <div v-if="nav.id == 'prepare'" class="article">
+            <p>各位在知行社学习前端的学员，在学习开始前，需要按照以下步骤做一下准备工作。</p>
+            <h2>注册账号</h2>
+            <ol>
+              <li>
+                <a href="https://www.jianshu.com/sign_up" target="_blank">简书账号</a> 用来放总结文章。</li>
+              <li>
+                <a href="https://github.com/join" target="_blank">Github账号</a> 用来放代码。</li>
+              <li><a href="https://www.wenjuan.com/s/2URrqy/" target="_blank">提交帐号的信息</a></li>
+            </ol>
+            <h2>下载软件</h2>
+            <h3>Chrome浏览器</h3>
+            <ul>
+              <li>Windows版 <a href="http://down.tech.sina.com.cn/page/40975.html" target="_blank">下载地址</a>
+              </li>
+              <li>MAC版 <a href="https://www.google.com/chrome/browser/index.html" target="_blank">下载地址</a>
+              </li>
+            </ul>
+            <h3>Sublime编辑器</h3>
+            <p><a href="https://www.sublimetext.com/3" target="_blank">下载地址</a></p>
+            <h3>Git 客户端</h3>
+            <p>如果是 Windows 系统，请安装 Git 客户端， <a href="https://desktop.github.com/" target="_blank">下载地址</a>。Mac 系统自带 Git 客户端。</p>
+            <h2>文档阅读</h2>
+            <p>请认真阅读如下文档：</p>
+            <ul>
+              <li><a href="http://www.jianshu.com/p/2053ab47a70d" target="_blank">任务的使用说明</a></li>
+              <li><a href="http://www.jianshu.com/p/89ff10491df5" target="_blank">教程的使用说明</a></li>
+              <li><a href="http://www.jianshu.com/p/6cf8160c9c99" target="_blank">遇到问题怎么办</a></li>
+            </ul>
+            <h2>开始学习</h2>
+            <p>经过以上的准备工作，我们可以开始动手学习前端知识了。按照任务列表顺序往下去完成任务就可以了。任务列表，点<a href="http://www.jianshu.com/p/d7376797e079" target="_blank">这里</a>。</p>
+            <p>如果你想更了解零基础的学习内容，可以看大纲，点<a href="http://www.jianshu.com/p/4be4bb6759f0" target="_blank">这里</a>。我们的任务覆盖了大纲。</p>
+          </div>
+          <!-- 任务说明 -->
+          <div v-if="nav.id == 'about-task'" class="article">
+            <h2>任务的组成部分</h2>
+            <ul>
+              <li>前提条件</li>
+              <li>任务类型</li>
+              <li>任务难度</li>
+              <li>任务描述</li>
+            </ul>
+            <p>前提条件：做这个任务需要具备的知识。点击具体的前提条件，会跳转到具体的知识点进行学习。
+              <br> 任务类型包括：总结和实践。总结类是在简书上写一篇技术文章来总结，实践类是要写代码来完成。
+              <br> 任务难度包括：简单，中等，难。
+              <br> 任务描述：任务的具体描述。
+            </p>
+            <h2>任务完成后，怎么提交任务</h2>
+            <p>将完成任务的地址（文章或代码的地址)评论在任务文章的后面。</p>
+            <h2>任务的批改</h2>
+            <p>工作日每天17点之前提交的任务，会在当前 24:00。 前批改完成。周末提交的任务，周一18点前批改完成。</p>
+            <p>批改的结果我们也会在回复在任务地址的后面。</p>
+          </div>
+          <!-- 教程说明 -->
+          <div v-if="nav.id == 'about-course'" class="article">
+            <h2>教程的组成部分</h2>
+            <ul>
+              <li>建议学习时长</li>
+              <li>学习方式</li>
+              <li>学习目标</li>
+              <li>详细介绍</li>
+              <li>更多学习资源</li>
+              <li>推荐阅读</li>
+              <li>练习题</li>
+            </ul>
+            <p>学习方式包括：<code>了解</code>和<code>深入</code>。学习方式是 <code>了解</code> 表示，只需了解就好，不需要过多的深入。
+              <br> 更多学习资源：在学的过程中，如果对某个不是概念不是很理解，可以在更多学习资源里找。
+              <br> 推荐阅读：会放与教程相关的内容。感兴趣可以点点看。
+            </p>
+            <h2>如何使用</h2>
+            <p>学习前，先了解下学习目标。学完后，再看下学习目标，看自己是否真的学会了，然后再做下习题巩固下。</p>
+          </div>
+          <!-- 联系我们 -->
           <div v-if="nav.id == 'contract'">
             <dl>
               <dt>微信:</dt>
@@ -66,4 +140,5 @@
   <script src="index.js"></script>
   <script src="https://s22.cnzz.com/z_stat.php?id=1263443638&web_id=1263443638" language="JavaScript"></script>
 </body>
+
 </html>

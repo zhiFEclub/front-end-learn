@@ -25,6 +25,17 @@ a {
   text-decoration: none;
 }
 
+.article a {
+  color: #3194d0;
+}
+.article ul,.article ol {
+  padding-left: 20px;
+}
+.article li {
+  list-style: initial;
+}
+
+
 h1 {
   display: -webkit-flex;
   display: flex;

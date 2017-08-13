@@ -2,7 +2,6 @@
   var navs = [{
     id: 'prepare',
     name: '学前准备',
-    url: 'http://www.jianshu.com/p/178b84ccb1bd'
   }, {
     id: 'task',
     name: '任务',
@@ -86,7 +85,6 @@
   }, {
     id: 'about-task',
     name: '任务说明',
-    url: 'http://www.jianshu.com/p/2053ab47a70d'
   }, {
     id: 'course',
     name: '教程',
@@ -198,7 +196,6 @@
   }, {
     id: 'about-course',
     name: '教程说明',
-    url: 'http://www.jianshu.com/p/89ff10491df5'
   }, {
     id: 'doc',
     name: '文档导航',
@@ -246,6 +243,9 @@
       name: 'Vue.js 问题汇总',
       url: 'http://www.jianshu.com/p/26de74d7444c'
     },{
+      name: '微信开发问题汇总',
+      url: 'http://www.jianshu.com/p/cb2f33dff8d7'
+    },{
       name: '其他 问题汇总',
       url: 'http://www.jianshu.com/p/9b91609a35f3'
     }]
@@ -257,7 +257,7 @@
     el: '#app',
     data: {
       navs: navs,
-      current: 'task',
+      current: null,
       isShowNav: true,
       isMobile: document.body.clientWidth < 768
     },
@@ -289,6 +289,7 @@
     methods: {
       switchTab: function(type) {
         this.current = type
+        location.hash = type
         if(this.isMobile) {
           this.isShowNav = false
         }
@@ -298,6 +299,8 @@
       },
     },
     mounted: function() {
+      var initType = location.hash !== '' ? location.hash.substr(1) : 'task'
+      this.switchTab(initType)
       this.isShowNav = !this.isMobile
     }
   })
