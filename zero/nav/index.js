@@ -93,10 +93,26 @@
     detail: [{
       type: '前端介绍',
       content: [{
-        name: '前端介绍'
-      }, {
-        name: '必备软件的安装'
-      }]
+        name: '前端介绍',
+        url: 'http://www.jianshu.com/p/6335956a1bad'
+      },
+      ]
+    },
+    {
+      type: '基础技能',
+      content: [
+      {
+        name: '学习方法',
+        url: 'http://www.jianshu.com/p/9121a012b34b',
+      }
+      {
+        name: '如何克服拖延？',
+        url: 'http://www.jianshu.com/p/0ce54058bbdf'
+      },
+      {
+        name: '如何提问？',
+        url: 'http://www.jianshu.com/p/8472c8539426'
+      },]
     },
     {
       type: 'HTML',
