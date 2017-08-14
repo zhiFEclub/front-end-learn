@@ -34,7 +34,7 @@
               <h2 class="type-name">{{type.type}}</h2>
               <ol class="cards">
                 <li class="card" v-for="item in type.content" v-show="nav.id == current" :key="item.id">
-                  <a :href="item.url" target="_blank">{{item.name}} {{item.url ? '' : '(未完成)'}}</a>
+                  <a :href="item.url" target="_blank">{{item.name}} <!-- {{item.url ? '' : '(未完成)'}} --></a>
                 </li>
               </ol>
             </div>
@@ -42,7 +42,7 @@
             <div v-if="!nav.detail[0].type">
               <ol class="cards">
                 <li class="card" v-for="item in nav.detail" v-show="nav.id == current" :key="item.id">
-                  <a :href="item.url" target="_blank">{{item.name}} {{item.url ? '' : '(未完成)'}}</a>
+                  <a :href="item.url" target="_blank">{{item.name}} <!-- {{item.url ? '' : '(未完成)'}} --></a>
                 </li>
               </ol>
             </div>

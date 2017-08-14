@@ -134,7 +134,26 @@
         name: '选择器',
         url: 'http://www.jianshu.com/p/d70779b43d4a'
       },{
-        name: '布局',
+        name: '布局介绍',
+        url: 'http://www.jianshu.com/p/12a69ebb6e41'
+      },{
+        name: '布局的基础知识',
+        url: 'http://www.jianshu.com/p/de085cc0c67f'
+      },{
+        name: 'Flex 布局介绍',
+        url: 'http://www.jianshu.com/p/b2b48c39450b'
+      },{
+        name: 'inline-block 布局介绍',
+        url: 'http://www.jianshu.com/p/707d9aab1d87'
+      },{
+        name: '定位(Position)布局',
+        url: 'http://www.jianshu.com/p/eede7a64e509'
+      },{
+        name: '让元素居中的写法汇总',
+        url: 'http://www.jianshu.com/p/878a9d5dd405'
+      },{
+        name: '响应式布局',
+        url: ''
       },{
         name: '常用规则',
       },{
@@ -303,7 +322,7 @@
       },
     },
     mounted: function() {
-      var initType = location.hash !== '' ? location.hash.substr(1) : 'task'
+      var initType = location.hash !== '' ? location.hash.substr(1) : 'course'
       this.switchTab(initType)
       this.isShowNav = !this.isMobile
     }

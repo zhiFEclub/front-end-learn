@@ -11,9 +11,14 @@
   * [介绍](http://www.jianshu.com/p/3268a6e64d00)
   * [语法](http://www.jianshu.com/p/7d2c5f36702b)
   * [选择器](http://www.jianshu.com/p/d70779b43d4a)
-  * 布局。
-    * 布局技术： Flex，inline-block 和 positon。
-    * 响应式布局。
+  * 布局
+    * [介绍](http://www.jianshu.com/p/12a69ebb6e41)
+    * [布局的基础知识](http://www.jianshu.com/p/de085cc0c67f)
+    * [Flex 布局介绍](http://www.jianshu.com/p/b2b48c39450b)
+    * [inline-block 布局介绍](http://www.jianshu.com/p/707d9aab1d87)
+    * [定位(Position)布局](http://www.jianshu.com/p/eede7a64e509)
+    * [让元素居中的写法汇总](http://www.jianshu.com/p/878a9d5dd405)
+    * 响应式布局
   * 常用规则
   * 继承与层叠
 * JavaScript
