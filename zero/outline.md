@@ -8,9 +8,9 @@
   * [介绍](http://www.jianshu.com/p/878b7c8e2773)
   * [常见标签及属性](http://www.jianshu.com/p/e1517a713556)
 * CSS
-  * 介绍
-  * 语法
-  * 选择器
+  * [介绍](http://www.jianshu.com/p/3268a6e64d00)
+  * [语法](http://www.jianshu.com/p/7d2c5f36702b)
+  * [选择器](http://www.jianshu.com/p/d70779b43d4a)
   * 布局。
     * 布局技术： Flex，inline-block 和 positon。
     * 响应式布局。

@@ -125,10 +125,14 @@
       type: 'CSS',
       content: [{
         name: '介绍',
+        url: 'http://www.jianshu.com/p/3268a6e64d00'
       },{
         name: '语法',
+        url: 'http://www.jianshu.com/p/7d2c5f36702b'
+
       },{
         name: '选择器',
+        url: 'http://www.jianshu.com/p/d70779b43d4a'
       },{
         name: '布局',
       },{
