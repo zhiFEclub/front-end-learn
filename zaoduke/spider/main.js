@@ -43,15 +43,15 @@ request({
 
     var resObj = {}
     var list = JSON.parse(body).d.entrylist
-      .filter(item => {
-        return moment(item.updatedAt).isSame(target, 'days')
-      })
+      // .filter(item => {
+      //   return moment(item.createdAt).isSame(target, 'days')
+      // })
       .forEach(item => {
         var keywords = standard(nodejieba.extract(item.title, KEYWORDS_NUM))
         var resItem = {
           title: item.title,
           content: item.content, // 开始内容
-          updatedAt: item.updatedAt,
+          createdAt: item.createdAt,
           originalUrl: item.originalUrl,
         }
         keywords.forEach(keyword => {
@@ -87,7 +87,8 @@ request({
 })
 // 输出 Markdown 格式的文章
 function outputMD(keywordArticles, useToday) {
-  var title = '抓取' + (useToday ? '今天' : '昨天') + '在[掘金网](https://juejin.im/)上最新发布的50篇前端文章，概要：'
+  var nowStr = moment().format('HH:mm:ss')
+  var title = `今天 ${nowStr} 抓取在[掘金网](https://juejin.im/)上最新发布的50篇前端文章，概要：`
   var summary =  title + keywordArticles.map(item => {
     return item.keyword + '(' + item.num + '篇)'
   }).join() + '。'
@@ -98,7 +99,7 @@ function outputMD(keywordArticles, useToday) {
     res = res + list.map(item => {
       return [
         '### ' + item.title,
-        // '创建时间: ' + moment(item.updatedAt).format('YYYY-MM-DD HH:mm:ss'),
+        // '创建时间: ' + moment(item.createdAt).format('YYYY-MM-DD HH:mm:ss'),
         '> ' + item.content + '\n', 
         '阅读地址: ' + item.originalUrl,
       ].join('\n')
