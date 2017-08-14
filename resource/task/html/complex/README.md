@@ -11,6 +11,8 @@
 做如下图所示是页面的HTML部分。
 ![](http://upload-images.jianshu.io/upload_images/7219342-db693597b920eade.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+上图中的图片可以用本地图片，或图片地址设置为`http://via.placeholder.com/200x100`。
+
 要求：
 * 选择合适的标签。
 * 代码要正确的缩进。
