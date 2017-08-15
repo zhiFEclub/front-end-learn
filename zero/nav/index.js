@@ -20,7 +20,8 @@
     }, {
       type: 'CSS',
       content: [{
-        name: '美化网站导航'
+        name: '美化网站导航',
+        url: 'http://www.jianshu.com/p/b2889973263f'
       }, {
         name: '实现圣杯布局'
       }, {

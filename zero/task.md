@@ -5,7 +5,7 @@
 1. [较复杂页面的练习](http://www.jianshu.com/p/6d9a1bb4106d)
 
 ### CSS 任务
-1. 美化网站导航
+1. [美化网站导航](http://www.jianshu.com/p/bbb41e85ec0e)
 1. 实现圣杯布局
 1. 仿PC版百度首页
 1. 常用样式的汇总页面
