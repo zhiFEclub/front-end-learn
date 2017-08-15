@@ -153,7 +153,13 @@
         url: 'http://www.jianshu.com/p/878a9d5dd405'
       },{
         name: '响应式布局',
-        url: ''
+        url: 'http://www.jianshu.com/p/3962ea2549d0'
+      },{
+        name: '响应式布局之媒体查询(media-queries)',
+        url: 'http://www.jianshu.com/p/1e6e0c2f4e55'
+      },{
+        name: '响应式布局之rem',
+        url: 'http://www.jianshu.com/p/1af305583b58'
       },{
         name: '常用规则',
       },{

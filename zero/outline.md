@@ -19,6 +19,9 @@
     * [定位(Position)布局](http://www.jianshu.com/p/eede7a64e509)
     * [让元素居中的写法汇总](http://www.jianshu.com/p/878a9d5dd405)
     * 响应式布局
+      * [介绍](http://www.jianshu.com/p/3962ea2549d0)
+      * [响应式布局之媒体查询(media-queries)](http://www.jianshu.com/p/1e6e0c2f4e55)
+      * [响应式布局之rem](http://www.jianshu.com/p/1af305583b58)
   * 常用规则
   * 继承与层叠
 * JavaScript
