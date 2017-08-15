@@ -23,7 +23,8 @@
         name: '美化网站导航',
         url: 'http://www.jianshu.com/p/b2889973263f'
       }, {
-        name: '实现圣杯布局'
+        name: '实现圣杯布局',
+        url: 'http://www.jianshu.com/p/582dcc0c6464'
       }, {
         name: '仿PC版百度首页'
       }, {

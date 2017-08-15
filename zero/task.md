@@ -6,7 +6,7 @@
 
 ### CSS 任务
 1. [美化网站导航](http://www.jianshu.com/p/bbb41e85ec0e)
-1. 实现圣杯布局
+1. [实现圣杯布局](http://www.jianshu.com/p/582dcc0c6464)
 1. 仿PC版百度首页
 1. 常用样式的汇总页面
 1. 用CSS画图标
