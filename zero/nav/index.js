@@ -161,7 +161,20 @@
         name: '响应式布局之rem',
         url: 'http://www.jianshu.com/p/1af305583b58'
       },{
-        name: '常用规则',
+        name: '常用属性概览',
+        url: 'http://www.jianshu.com/p/b2889973263f'
+      },{
+        name: '文本与字体',
+        url: 'http://www.jianshu.com/p/8e2db84c466f'
+      },{
+        name: '背景',
+        url: 'http://www.jianshu.com/p/3379ad747a25'
+      },{
+        name: '边框',
+        url: 'http://www.jianshu.com/p/d4f48a84f2f5'
+      },{
+        name: '颜色',
+        url: 'http://www.jianshu.com/p/4c5117783a7a'
       },{
         name: '继承与层叠',
       }]

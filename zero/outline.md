@@ -23,6 +23,11 @@
       * [响应式布局之媒体查询(media-queries)](http://www.jianshu.com/p/1e6e0c2f4e55)
       * [响应式布局之rem](http://www.jianshu.com/p/1af305583b58)
   * 常用规则
+    * [CSS 常用属性概览](http://www.jianshu.com/p/b2889973263f)
+    * [文本与字体](http://www.jianshu.com/p/8e2db84c466f)
+    * [背景](http://www.jianshu.com/p/3379ad747a25)
+    * [边框](http://www.jianshu.com/p/d4f48a84f2f5)
+    * [颜色](http://www.jianshu.com/p/4c5117783a7a)
   * 继承与层叠
 * JavaScript
   * 介绍
