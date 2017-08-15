@@ -177,6 +177,7 @@
         url: 'http://www.jianshu.com/p/4c5117783a7a'
       },{
         name: '继承与层叠',
+        url: 'http://www.jianshu.com/p/dc6f65654728'
       }]
     },{
       type: 'JavaScript',

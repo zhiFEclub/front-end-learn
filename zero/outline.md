@@ -28,7 +28,7 @@
     * [背景](http://www.jianshu.com/p/3379ad747a25)
     * [边框](http://www.jianshu.com/p/d4f48a84f2f5)
     * [颜色](http://www.jianshu.com/p/4c5117783a7a)
-  * 继承与层叠
+  * [继承与层叠](http://www.jianshu.com/p/dc6f65654728)
 * JavaScript
   * 介绍
   * 语法
