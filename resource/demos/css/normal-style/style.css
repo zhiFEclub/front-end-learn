@@ -1,0 +1,28 @@
+body {
+  margin: 0 0 0 10px;
+}
+h2:before{
+  content: '';
+  margin-bottom: 10px;
+  display: block;
+  height: 1px;
+  background-color: #eee;
+}
+h2:first-of-type:before{
+  display: none;
+}
+/*雅黑*/
+.ff-yahei {
+  font-family: tahoma, arial, "STXihei", "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", "宋体", SimSun;
+}
+
+/* 普通黑体 */
+.ff-hei {
+  font-family: tahoma, arial, "STXihei", SimHei, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", "宋体", SimSun;
+}
+/* 宋体 */
+.ff-song {
+  font-family: tahoma, arial, "宋体", SimSun;
+}
+
+
