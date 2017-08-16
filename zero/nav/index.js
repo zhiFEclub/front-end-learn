@@ -21,7 +21,7 @@
       type: 'CSS',
       content: [{
         name: '美化网站导航',
-        url: 'http://www.jianshu.com/p/b2889973263f'
+        url: 'http://www.jianshu.com/p/bbb41e85ec0e'
       }, {
         name: '实现圣杯布局',
         url: 'http://www.jianshu.com/p/582dcc0c6464'
