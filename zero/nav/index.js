@@ -26,17 +26,20 @@
         name: '实现圣杯布局',
         url: 'http://www.jianshu.com/p/582dcc0c6464'
       }, {
-        name: '仿PC版百度首页'
+        name: '仿PC版百度首页',
+        url:'http://www.jianshu.com/p/1672f6cd9f74'
       }, {
-        name: '常用样式的汇总页面'
+        name: '常用样式的汇总页面',
+        url:'http://www.jianshu.com/p/51434febaf41'
       }, {
-        name: '用CSS画图标'
+        name: '用CSS画图标',
+        url:'http://www.jianshu.com/p/6380774681cc'
       }, {
-        name: '动画方面的任务'
+        name: '仿蝉意花园',
+        url:'http://www.jianshu.com/p/cbf882221814'
       }, {
-        name: '仿蝉意花园'
-      }, {
-        name: '仿手机版的今日头条'
+        name: '仿手机版的今日头条',
+        url:'http://www.jianshu.com/p/1b446eb13abd'
       }]
     }, {
       type: 'JavaScript',

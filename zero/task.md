@@ -7,12 +7,11 @@
 ### CSS 任务
 1. [美化网站导航](http://www.jianshu.com/p/bbb41e85ec0e)
 1. [实现圣杯布局](http://www.jianshu.com/p/582dcc0c6464)
-1. 仿PC版百度首页
-1. 常用样式的汇总页面
-1. 用CSS画图标
-1. 动画方面的任务
-1. 仿蝉意花园(http://www.mezzoblue.com/zengarden/alldesigns/)
-1. 仿手机版的今日头条
+1. [仿PC版百度首页](http://www.jianshu.com/p/1672f6cd9f74)
+1. [常用样式的汇总页面](http://www.jianshu.com/p/51434febaf41)
+1. [用CSS画图标](http://www.jianshu.com/p/6380774681cc)
+1. [仿禅意花园](http://www.jianshu.com/p/cbf882221814)
+1. [仿手机版的今日头条](http://www.jianshu.com/p/1b446eb13abd)
 
 ### JavaScript 任务
 1. 数字操作练习
