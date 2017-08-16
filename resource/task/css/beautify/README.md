@@ -14,4 +14,7 @@
 将之前做的导航页，外观如下图所示
 ![](http://upload-images.jianshu.io/upload_images/7219342-006a4d84e62337d5.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-可以审查这个页面-> https://zhifeclub.github.io/front-end-learn/zero/nav/#course
+要求：  
+1. 外观要和上图一样。通过用浏览器的开发工具去审查页面的元素来做。页面地址-> https://zhifeclub.github.io/front-end-learn/zero/nav/#course
+1. 鼠标移动到左侧导航和右侧的链接上的效果，要和上页面一致。
+
