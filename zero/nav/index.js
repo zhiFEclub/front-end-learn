@@ -188,10 +188,24 @@
       type: 'JavaScript',
       content: [{
         name: '介绍',
+        url: 'http://www.jianshu.com/p/f3d96aa068fd'
       },{
         name: '语法',
+        url: 'http://www.jianshu.com/p/162f37ffbb1a'
       },{
-        name: '内置对象及其常用方法',
+        name: '数据类型介绍',
+        url: 'http://www.jianshu.com/p/92fc2c512de4'
+      },{
+        name: '数值',
+        url: 'http://www.jianshu.com/p/38171f010b2d'
+      },{
+        name: '布尔值',
+      },{
+        name: '字符串',
+      },{
+        name: '对象',
+      },{
+        name: '数组',
       },{
         name: 'DOM',
       },{

@@ -30,9 +30,15 @@
     * [颜色](http://www.jianshu.com/p/4c5117783a7a)
   * [继承与层叠](http://www.jianshu.com/p/dc6f65654728)
 * JavaScript
-  * 介绍
-  * 语法
+  * [介绍](http://www.jianshu.com/p/f3d96aa068fd)
+  * [语法](http://www.jianshu.com/p/162f37ffbb1a)
   * 内置对象及其常用方法
+    * [介绍](http://www.jianshu.com/p/92fc2c512de4)
+    * [数值](http://www.jianshu.com/p/38171f010b2d)
+    * 布尔值
+    * 字符串
+    * 对象
+    * 数组
   * DOM
   * BOM
 * 代码质量
