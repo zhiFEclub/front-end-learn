@@ -284,6 +284,19 @@
       url: 'https://cn.vuejs.org/v2/api/'
     },]
   }, {
+    id: 'software',
+    name: '软件使用',
+    detail: [{
+      name: 'Chrome 开发者工具',
+      url: 'http://www.css88.com/doc/chrome-devtools/'
+    },{
+      name: '如何优雅地使用Sublime Text',
+      url: 'http://www.jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/'
+    },{
+      name: 'Git 参考手册',
+      url: 'http://gitref.justjavac.com/'
+    }]
+  },{
     id: 'question',
     name: '问题汇总',
     detail: [{
