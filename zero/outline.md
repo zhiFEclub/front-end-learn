@@ -36,7 +36,7 @@
     * [介绍](http://www.jianshu.com/p/92fc2c512de4)
     * [数值](http://www.jianshu.com/p/38171f010b2d)
     * 布尔值
-    * 字符串
+    * [字符串](http://www.jianshu.com/p/4070c32f5b2a)
     * 对象
     * 数组
   * DOM

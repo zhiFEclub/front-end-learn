@@ -44,9 +44,11 @@
     }, {
       type: 'JavaScript',
       content: [{
-        name: '数字操作练习'
+        name: '数字操作练习',
+        url: 'http://www.jianshu.com/p/2780b51a4091'
       }, {
         name: '字符串操作练习'
+        url: 'http://www.jianshu.com/p/4263991d02d7'
       }, {
         name: '数组操作练习'
       }, {
@@ -57,15 +59,13 @@
     }, {
       type: 'jQuery',
       content: [{
-        name: '数字操作练习'
+        name: '页面概要'
       }, {
-        name: '字符串操作练习'
+        name: '简单的计算器'
       }, {
-        name: '数组操作练习'
+        name: '代办事宜'
       }, {
-        name: '日期操作练习'
-      }, {
-        name: '网站导航加快捷打开的功能'
+        name: '列表页'
       }]
     }, {
       type: 'Bootstrap',
@@ -202,6 +202,7 @@
         name: '布尔值',
       },{
         name: '字符串',
+        url: 'http://www.jianshu.com/p/4070c32f5b2a'
       },{
         name: '对象',
       },{

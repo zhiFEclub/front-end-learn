@@ -14,8 +14,8 @@
 1. [仿手机版的今日头条](http://www.jianshu.com/p/1b446eb13abd)
 
 ### JavaScript 任务
-1. 数字操作练习
-1. 字符串操作练习
+1. [数字操作练习](http://www.jianshu.com/p/2780b51a4091)
+1. [字符串操作练习](http://www.jianshu.com/p/4263991d02d7)
 1. 数组操作练习
 1. 日期操作练习
 1. 网站导航加快捷打开的功能
