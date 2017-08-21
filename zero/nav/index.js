@@ -47,7 +47,7 @@
         name: '数字操作练习',
         url: 'http://www.jianshu.com/p/2780b51a4091'
       }, {
-        name: '字符串操作练习'
+        name: '字符串操作练习',
         url: 'http://www.jianshu.com/p/4263991d02d7'
       }, {
         name: '数组操作练习'
