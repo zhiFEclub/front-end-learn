@@ -37,8 +37,8 @@
     * [数值](http://www.jianshu.com/p/38171f010b2d)
     * [布尔值](http://www.jianshu.com/p/72a7fddab5c8)
     * [字符串](http://www.jianshu.com/p/4070c32f5b2a)
-    * 对象
-    * 数组
+    * [对象](http://www.jianshu.com/p/fa98af801352)
+    * [数组](http://www.jianshu.com/p/5c0db5c18575)
   * DOM
   * BOM
 * 代码质量

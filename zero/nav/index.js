@@ -206,8 +206,10 @@
         url: 'http://www.jianshu.com/p/4070c32f5b2a'
       },{
         name: '对象',
+        url: 'http://www.jianshu.com/p/fa98af801352'
       },{
         name: '数组',
+        url: 'http://www.jianshu.com/p/5c0db5c18575'
       },{
         name: 'DOM',
       },{
