@@ -200,6 +200,7 @@
         url: 'http://www.jianshu.com/p/38171f010b2d'
       },{
         name: '布尔值',
+        url: 'http://www.jianshu.com/p/72a7fddab5c8'
       },{
         name: '字符串',
         url: 'http://www.jianshu.com/p/4070c32f5b2a'
