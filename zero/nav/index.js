@@ -215,8 +215,10 @@
         url: 'http://www.jianshu.com/p/a3f00054cc58'
       },{
         name: 'DOM',
+        url: 'http://www.jianshu.com/p/c328019a4bf4'
       },{
         name: 'BOM',
+        url: 'http://www.jianshu.com/p/2c66d623e4d8'
       }]
     },{
       type: '代码质量',

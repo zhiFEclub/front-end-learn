@@ -40,8 +40,8 @@
     * [对象](http://www.jianshu.com/p/fa98af801352)
     * [数组](http://www.jianshu.com/p/5c0db5c18575)
     * [日期](http://www.jianshu.com/p/a3f00054cc58)
-  * DOM
-  * BOM
+  * [DOM](http://www.jianshu.com/p/c328019a4bf4)
+  * [BOM](http://www.jianshu.com/p/2c66d623e4d8)
 * 代码质量
   * 命名
   * 基本原则
