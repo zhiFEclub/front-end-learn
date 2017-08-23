@@ -211,6 +211,9 @@
         name: '数组',
         url: 'http://www.jianshu.com/p/5c0db5c18575'
       },{
+        name: '日期',
+        url: 'http://www.jianshu.com/p/a3f00054cc58'
+      },{
         name: 'DOM',
       },{
         name: 'BOM',

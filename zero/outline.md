@@ -39,6 +39,7 @@
     * [字符串](http://www.jianshu.com/p/4070c32f5b2a)
     * [对象](http://www.jianshu.com/p/fa98af801352)
     * [数组](http://www.jianshu.com/p/5c0db5c18575)
+    * [日期](http://www.jianshu.com/p/a3f00054cc58)
   * DOM
   * BOM
 * 代码质量
