@@ -252,7 +252,8 @@
     },{
       type: '软件工程',
       content: [{
-        name: '软件工程',
+        name: '软件工程介绍',
+        url: 'http://www.jianshu.com/p/ceba85b64c8f'
       }]
     },{
       type: 'Vue',

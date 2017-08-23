@@ -54,7 +54,7 @@
   * 与服务器交互
   * 动画
 * Bootstrap
-* 软件工程
+* [软件工程介绍](http://www.jianshu.com/p/ceba85b64c8f)
 * Vue
   * 介绍
   * 模板语法
