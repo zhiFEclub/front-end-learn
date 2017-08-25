@@ -56,7 +56,7 @@
         name: '日期操作练习',
         url: 'http://www.jianshu.com/p/e0998a791c71'
       }, {
-        name: '网站导航加快捷打开的功能',
+        name: '动态生成网站导航',
         url: 'http://www.jianshu.com/p/2377ece9a9a2'
       }]
     }, {
