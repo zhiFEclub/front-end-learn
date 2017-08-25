@@ -16,9 +16,9 @@
 ### JavaScript 任务
 1. [数字操作练习](http://www.jianshu.com/p/2780b51a4091)
 1. [字符串操作练习](http://www.jianshu.com/p/4263991d02d7)
-1. 数组操作练习
-1. 日期操作练习
-1. 网站导航加快捷打开的功能
+1. [数组操作练习](http://www.jianshu.com/p/0418dd793b9d)
+1. [简单的事件练习](http://www.jianshu.com/p/e0998a791c71)
+1. [动态生成网站导航](http://www.jianshu.com/p/2377ece9a9a2)
 
 ### jQuery 任务
 1. 页面概要（页面的宽，高，用了多少标签，有多少种颜色等）

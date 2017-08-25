@@ -50,11 +50,14 @@
         name: '字符串操作练习',
         url: 'http://www.jianshu.com/p/4263991d02d7'
       }, {
-        name: '数组操作练习'
+        name: '数组操作练习',
+        url: 'http://www.jianshu.com/p/0418dd793b9d'
       }, {
-        name: '日期操作练习'
+        name: '日期操作练习',
+        url: 'http://www.jianshu.com/p/e0998a791c71'
       }, {
-        name: '网站导航加快捷打开的功能'
+        name: '网站导航加快捷打开的功能',
+        url: 'http://www.jianshu.com/p/2377ece9a9a2'
       }]
     }, {
       type: 'jQuery',
