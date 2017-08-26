@@ -43,13 +43,13 @@
   * [DOM](http://www.jianshu.com/p/c328019a4bf4)
   * [BOM](http://www.jianshu.com/p/2c66d623e4d8)
 * 代码质量
-  * 命名
-  * 基本原则
-  * 代码风格
+  * [基本原则](http://www.jianshu.com/p/7ce49ca72ef0)
+  * [命名](http://www.jianshu.com/p/27070dc2787e)
+  * [代码风格](http://www.jianshu.com/p/d623ef624696)
 * jQuery
-  * 介绍
-  * 选择元素
-  * 获取和设置元素信息
+  * [介绍](http://www.jianshu.com/p/da93cdb62db8)
+  * [选择元素](http://www.jianshu.com/p/5c2bbbd0efc6)
+  * [获取和设置元素信息](http://www.jianshu.com/p/085a1018cd00)
   * 事件
   * 与服务器交互
   * 动画

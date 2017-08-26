@@ -227,19 +227,25 @@
       type: '代码质量',
       content: [{
         name: '命名',
+        url: 'http://www.jianshu.com/p/7ce49ca72ef0'
       },{
         name: '基本原则',
+        url: 'http://www.jianshu.com/p/27070dc2787e'
       },{
         name: '代码风格',
+        url: 'http://www.jianshu.com/p/d623ef624696'
       }]
     },{
       type: 'jQuery',
       content: [{
         name: '介绍',
+        url: ''
       },{
         name: '选择元素',
+        url: ''
       },{
         name: '获取和设置元素信息',
+        url: ''
       },{
         name: '事件',
       },{
