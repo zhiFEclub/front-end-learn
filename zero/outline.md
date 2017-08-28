@@ -50,9 +50,9 @@
   * [介绍](http://www.jianshu.com/p/da93cdb62db8)
   * [选择元素](http://www.jianshu.com/p/5c2bbbd0efc6)
   * [获取和设置元素信息](http://www.jianshu.com/p/085a1018cd00)
-  * 事件
-  * 与服务器交互
-  * 动画
+  * [事件](http://www.jianshu.com/p/cc5565de98fd)
+  * [与服务器交互](http://www.jianshu.com/p/c15a2fcf7294)
+  * [动画](http://www.jianshu.com/p/890b37a80aa5)
 * Bootstrap
 * [软件工程介绍](http://www.jianshu.com/p/ceba85b64c8f)
 * Vue

@@ -239,19 +239,22 @@
       type: 'jQuery',
       content: [{
         name: '介绍',
-        url: ''
+        url: 'http://www.jianshu.com/p/da93cdb62db8'
       },{
         name: '选择元素',
-        url: ''
+        url: 'http://www.jianshu.com/p/5c2bbbd0efc6'
       },{
         name: '获取和设置元素信息',
-        url: ''
+        url: 'http://www.jianshu.com/p/085a1018cd00',
       },{
         name: '事件',
+        url: 'http://www.jianshu.com/p/cc5565de98fd'
       },{
         name: '与服务器交互',
+        url: 'http://www.jianshu.com/p/c15a2fcf7294'
       },{
         name: '动画',
+        url: 'http://www.jianshu.com/p/890b37a80aa5'
       }]
     },{
       type: 'Bootstrap',
