@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+  <div class="todo">
+    <h1 class="todo__title">待办事宜</h1>
+    <ul>
+      <li class="todo__item">看海贼王</li>
+      <li class="todo__item todo__item--special">学习前端</li>
+      <li class="todo__item">总结</li>
+    </ul>
+  </div>
+  <script src="https://unpkg.com/jquery@3.2.1"></script>
+  <script>
+    $(document).ready(() => {
+      var $todo = $('.todo')
+      var $allChildrens = $todo.find('*')
+      console.log($allChildrens.length)
+
+      var todoContents = []
+      $allChildrens.each(function () {
+        var $item = $(this)
+        console.log(`标签名: ${$item.prop('tagName')},宽: ${$item.width()}px,高: ${$item.height()}px`)
+        if($item.prop('class').indexOf('-') !== -1) {
+          console.log($item.text())
+        }
+
+        if($item.hasClass('todo__item')) {
+          todoContents.push($item.text())
+        }
+      })
+      console.log(todoContents.join(';'))
+    })
+  </script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>计算器</title>
+  <style>
+    .calculator{
+      width: 176px;
+      margin: 0 auto;
+    }
+    .output{
+      width: 100%;
+      text-align: right;
+    }
+    button{
+      width: 40px;
+      text-align: center;
+    }
+    .cal {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" class="output" readonly>
+    <div class="inputs">
+      <button class="num">1</button>
+      <button class="num">2</button>
+      <button class="num">3</button>
+      <button class="op">+</button>
+      <br>
+      <button class="num">4</button>
+      <button class="num">5</button>
+      <button class="num">6</button>
+      <button class="op">-</button>
+      <br>
+      <button class="num">7</button>
+      <button class="num">8</button>
+      <button class="num">9</button>
+      <button class="op">*</button>
+      <br>
+      <button class="num">0</button>
+      <button class="num">.</button>
+      <button class="op">/</button>
+      <button class="c">清零</button>
+      <br>
+      <button class="cal">=</button>
+    </div>
+  </div>
+  <script src="https://unpkg.com/jquery@3.2.1"></script>
+  <script>
+    $(document).ready(function () {
+      var left = ''
+      var right = ''
+      var outputLeft = true
+      var op
+      var $output = $('.output')
+      
+      $('.num').click(function() {
+        var tar = outputLeft ? left : right
+        tar = tar + $(this).text()
+        if(outputLeft) {
+          left = tar
+        } else {
+          right = tar
+        }
+        output()
+      })
+
+      $('.op').click(function() {
+        op = $(this).text()
+        output(true)
+        outputLeft = false
+      })
+
+      $('.cal').click(function() {
+        left = eval(left + op + right)
+        right = ''
+        outputLeft = true
+        output()
+      })
+
+      $('.c').click(function() {
+        left = ''
+        right = ''
+        outputLeft = true
+        output()
+      })
+
+      function output(isClear) {
+        var tar
+        if(isClear) {
+          tar = ''
+        } else {
+          tar = outputLeft ? left : right
+        }
+        $output.val(tar)
+      }
+    })
+  </script>
+
+</body>
+</html>
