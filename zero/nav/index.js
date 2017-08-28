@@ -62,13 +62,17 @@
     }, {
       type: 'jQuery',
       content: [{
-        name: '页面概要'
+        name: '页面概要',
+        url:'http://www.jianshu.com/p/9497b504bfbe'
       }, {
-        name: '简单的计算器'
+        name: '简单的计算器',
+        url:'http://www.jianshu.com/p/ad400f0fb515'
       }, {
-        name: '代办事宜'
+        name: '代办事宜',
+        url:'http://www.jianshu.com/p/10161620505a'
       }, {
-        name: '列表页'
+        name: '列表页',
+        url:'http://www.jianshu.com/p/006ed2970a26'
       }]
     }, {
       type: 'Bootstrap',
