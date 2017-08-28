@@ -22,8 +22,8 @@
 
 ### jQuery 任务
 1. [页面概要](http://www.jianshu.com/p/9497b504bfbe)
-1. 简单的计算器
-1. 代办事宜
+1. [简单的计算器](http://www.jianshu.com/p/ad400f0fb515)
+1. [代办事宜](http://www.jianshu.com/p/10161620505a)
 1. 列表页（带与服务器端交互）
 
 ### Bootstrap 任务

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>列表页</title>
+  <style>
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      list-style: none;
+    }
+  </style>
+</head>
+<body>
+  <label>标题：<input type="text"></label>
+  <label>类型：<select><option value="">默认</option><option value="latest">最新</option><option value="hotest">热门</option></select></label>
+  <button id="search-btn">搜索</button>
+  <ul class="list">
+    
+  </ul>
+  <script id="template" type="x-template">
+  <li>
+    <h2>{title}</h2>
+    <div>作者：{author}</div>
+  </li>
+  </script>
+  <script src="https://unpkg.com/jquery@3.2.1"></script>
+  <script src="https://unpkg.com/mockjs@1.0.1-beta3"></script>
+  <script>
+    function makeItem() {
+      var Random = Mock.Random
+      return {
+        title: Random.cword(3,10),
+        author: Random.cname(),
+      }
+    }
+    Mock.mock(new RegExp('/news/list'), ({ url, body }) => {
+      var res = []
+      var randomLen = Mock.Random.integer(1, 10)
+      for(var i = 0; i < randomLen; i++) {
+        res.push(makeItem())
+      }
+      return res
+    })
+    
+  </script>
+
+  <script>
+    $(document).ready(function() {
+      var listUrl = '/news/list'
+      var $output = $('.list')
+
+      $('#search-btn').click(fetchList)
+
+      function fetchList() {
+        $.ajax({
+          url: listUrl,
+          dataType: 'json'
+        }).then(function(articleList) {
+          render(articleList)
+        })
+      }
+
+      function render(list) {
+        var template = $('#template').html()
+        var html = list.map(function(item) {
+          return template
+            .replace('{title}', item.title)
+            .replace('{author}', item.author)
+        })
+        $output.html(html)
+      }
+    })
+  </script>
+</body>
+</html>

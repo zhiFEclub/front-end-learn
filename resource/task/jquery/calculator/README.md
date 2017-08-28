@@ -18,4 +18,4 @@
 1. 按数字，数字会输出在输入框中。
 1. 按等号，计算结果，输出在输入框。
 
-具体见[这里]()。
+具体见[这里](https://zhifeclub.github.io/front-end-learn/resource/task/jquery/calculator/demo.html)。
