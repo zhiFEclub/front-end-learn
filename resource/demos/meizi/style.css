@@ -1,0 +1,28 @@
+body {
+  background-color: #eee;
+}
+
+.imgs {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.imgs__item {
+  margin-bottom: 10px;
+  width: 45%;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .imgs__item {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .imgs__item {
+    width: 95%;
+  }
+}
