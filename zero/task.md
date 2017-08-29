@@ -27,12 +27,12 @@
 1. [列表页](http://www.jianshu.com/p/006ed2970a26)
 
 ### Bootstrap 任务
-1. 后台管理系统的 Dashboard页
+1. [Bootstrap 练习题](http://www.jianshu.com/p/10ba2b7b932b)
 
 ### Vue 任务
 1. 简单的计算器
 1. 代办事宜
-1. 列表页（带与服务器端交互）
+1. 列表页
 
 ### 综合任务
 1. TODO

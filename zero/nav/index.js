@@ -77,7 +77,8 @@
     }, {
       type: 'Bootstrap',
       content: [{
-        name: '后台管理系统的 Dashboard页'
+        name: 'Bootstrap 练习题',
+        url: 'http://www.jianshu.com/p/10ba2b7b932b'
       }]
     }, {
       type: 'Vue',
@@ -264,6 +265,7 @@
       type: 'Bootstrap',
       content: [{
         name: 'Bootstrap',
+        url: 'http://www.jianshu.com/p/97921d3597ed'
       }]
     },{
       type: '软件工程',

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>用户列表</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+    <style>
+    .search-form label {
+        display: inline-block;
+        width: 100px;
+        text-align: right;
+    }
+
+    .search-form .form-group {
+        margin-bottom: 10px;
+    }
+
+    .row {
+        margin-bottom: 10px;
+    }
+
+    @media screen and (max-width: 970px) {
+      .search-form label {
+        display: block;
+        text-align: left;
+      }
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>用户列表</h1>
+        <div class="row form-inline search-form">
+            <div class="form-group col-md-4">
+                <label for="">用户名</label>
+                <input type="text" name="" id="input" class="form-control" value="">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="">描述</label>
+                <input type="text" name="" id="input" class="form-control" value="">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="">xx</label>
+                <input type="text" name="" id="input" class="form-control" value="">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="">xx</label>
+                <input type="text" name="" id="input" class="form-control" value="">
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="pull-right">
+                <button type="button" class="btn btn-primary btn-lg">
+                    <i class="glyphicon glyphicon-zoom-in"></i> 搜索
+                </button>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-bordered table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th>用户名</th>
+                            <th>描述</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Joel</td>
+                            <td>xxx</td>
+                        </tr>
+                        <tr>
+                            <td>John</td>
+                            <td>xxx</td>
+                        </tr>
+                        <tr>
+                            <td>Andy</td>
+                            <td>xxx</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+              <div class="pull-right">
+                <nav aria-label="Page navigation">
+                  <ul class="pagination">
+                      <li>
+                          <a href="#" aria-label="Previous">
+                          <span aria-hidden="true">&laquo;</span>
+                        </a>
+                      </li>
+                      <li><a href="#">1</a></li>
+                      <li><a href="#">2</a></li>
+                      <li><a href="#">3</a></li>
+                      <li><a href="#">4</a></li>
+                      <li><a href="#">5</a></li>
+                      <li>
+                          <a href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                          </a>
+                      </li>
+                  </ul>
+               </nav>
+              </div>
+              
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
