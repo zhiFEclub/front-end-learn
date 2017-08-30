@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>函数的demo</title>
+</head>
+<body>
+  <script>
+    // doSth 是函数名
+    function doSth() {
+      console.log('do Sth')
+    }
+    doSth()
+
+    // num 是参数
+    function isPositive(num) {
+      return num > 0
+    }
+    console.log(isPositive(3))
+    console.log(isPositive(-1))
+    // a, b 是参数
+    function add(a, b) {
+      a = a || 0 // 如果没有传a, 默认值是0
+      b = b || 0
+      // arguments[0] + arguments[1] 
+      return a + b
+    }
+
+    console.log(add(3, 4)) // 7
+    console.log(add(3)) // 3
+
+    function adds() {
+      var sum = 0
+      for(var i = 0; i < arguments.length; i++) {
+        sum = sum + arguments[i]
+      }
+      return sum
+    }
+    console.log(adds(1, 2, 3)) // 6
+  </script>
+</body>
+</html>

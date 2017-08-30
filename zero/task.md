@@ -30,9 +30,8 @@
 1. [Bootstrap 练习题](http://www.jianshu.com/p/10ba2b7b932b)
 
 ### Vue 任务
-1. 简单的计算器
-1. 代办事宜
-1. 列表页
+1. [简单的计算器](http://www.jianshu.com/p/875bbcfbd2ea)
+1. [代办事宜](http://www.jianshu.com/p/651fc8794b8e)
 
 ### 综合任务
-1. TODO
+1. [Web版 干货集中营](http://www.jianshu.com/p/e8567632454e)

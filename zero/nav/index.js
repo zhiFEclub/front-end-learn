@@ -83,16 +83,17 @@
     }, {
       type: 'Vue',
       content: [{
-        name: '简单的计算器'
+        name: '简单的计算器',
+        url: 'http://www.jianshu.com/p/875bbcfbd2ea'
       }, {
-        name: '代办事宜'
-      }, {
-        name: '列表页'
+        name: '代办事宜',
+        url: 'http://www.jianshu.com/p/651fc8794b8e'
       }]
     }, {
       type: '综合任务',
       content: [{
-        name: 'TODO'
+        name: 'Web版 干货集中营',
+        url: 'http://www.jianshu.com/p/e8567632454e'
       }]
     }, ]
   }, {
@@ -277,10 +278,13 @@
       type: 'Vue',
       content: [{
         name: '介绍',
+        url: 'http://www.jianshu.com/p/cfdccd2cd057'
       },{
         name: '模板语法',
+        url: 'http://www.jianshu.com/p/f3c6a32d5cf6'
       },{
         name: '组件',
+        url: 'http://www.jianshu.com/p/4723049d5586'
       }]
     },]
   }, {

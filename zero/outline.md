@@ -1,9 +1,6 @@
 # 零基础 学习大纲
-* 学前准备
-  * 前端介绍
-  * 必备软件安装
-  * 学习方法
-* 前端介绍
+* [学前准备](http://www.jianshu.com/p/178b84ccb1bd)
+* [前端介绍](http://www.jianshu.com/p/6335956a1bad)
 * HTML
   * [介绍](http://www.jianshu.com/p/878b7c8e2773)
   * [常见标签及属性](http://www.jianshu.com/p/e1517a713556)
@@ -56,6 +53,6 @@
 * [Bootstrap](http://www.jianshu.com/p/97921d3597ed)
 * [软件工程介绍](http://www.jianshu.com/p/ceba85b64c8f)
 * Vue
-  * 介绍
-  * 模板语法
-  * 组件
+  * [介绍](http://www.jianshu.com/p/cfdccd2cd057)
+  * [模板语法](http://www.jianshu.com/p/f3c6a32d5cf6)
+  * [组件](http://www.jianshu.com/p/4723049d5586)
