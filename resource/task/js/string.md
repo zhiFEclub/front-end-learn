@@ -6,7 +6,7 @@
 
 ## 概要
 类型：实践
-难度：简单  
+难度：中等  
 
 ## 任务描述
 **题 1：首字母改大写**
@@ -28,17 +28,8 @@ trim(' a bc   ');  // 输出 'a bc'
 
 ***
 
-**题 3：将字符串中 `_` 后面的小写字母变大写，并且删除 `_` **
-编写函数 `toCamelStyle`,满足
-```
-toCamelStyle('abc_bcd');  // 输出 'abcBcd'
-toCamelStyle('a_3_c_d_ef');  // 输出 'a3CDEf'
-toCamelStyle('_a_b_c_d_ef');  // 输出 '_aBCDEf'
-```
 
-***
-
-**题 4：删除字符串中所有的数字**
+**题 3：删除字符串中所有的数字**
 编写函数 `removeNum`,满足
 ```
 removeNum('a23b434c45');  // 输出 'abc'
@@ -47,19 +38,10 @@ removeNum('343abd8c');  // 输出 'abdc'
 
 ***
 
-**题 5: 反转字符串**
+**题 4: 反转字符串**
 编写函数 `reverse`,满足
 ```
 reverse('abcd'); // 输出 'dbca'
 reverse('a'); // 输出 'a'
 ```
 
-***
-
-**题 6: 统计字符串中各字符在字符串中出现的数量**
-编写函数 `caculateExistNum`,满足
-```
-caculateExistNum('abcd'); // 输出 {a:1,b:1,c:1,d:1}
-caculateExistNum('aaabbc00'); // 输出 {a:3,b:2,c:1,o:1}
-caculateExistNum(''); // 输出 {}
-```
