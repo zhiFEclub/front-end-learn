@@ -291,6 +291,38 @@
     id: 'about-course',
     name: '教程说明',
   }, {
+    id: 'demos',
+    name: '代码示例',
+    detail: [{
+      type: 'HTML',
+      content: [{
+        name: '页面的基本结构',
+        url: 'https://zhifeclub.github.io/front-end-learn/resource/demos/html/struct'
+      },{
+        name: '常见标签',
+        url: 'https://zhifeclub.github.io/front-end-learn/resource/demos/html/tags'
+      }]
+    }, {
+      type: 'CSS',
+      content: [{
+        name: '常用样式',
+        url: 'https://zhifeclub.github.io/front-end-learn/resource/demos/css/normal-style'
+      },{
+        name: 'rem 用法',
+        url: 'https://zhifeclub.github.io/front-end-learn/resource/demos/css/rem/'
+      }]
+    }, {
+      type: 'JavaScipt',
+      content: [{
+        name: '循环',
+        url: 'https://zhifeclub.github.io/front-end-learn/resource/demos/loop/'
+      },{
+        name: '函数',
+        url: 'https://zhifeclub.github.io/front-end-learn/resource/demos/function/'
+      }]
+    }]
+
+  }, {
     id: 'doc',
     name: '文档导航',
     detail: [{
