@@ -300,7 +300,7 @@
         url: 'https://zhifeclub.github.io/front-end-learn/resource/demos/html/struct'
       },{
         name: '常见标签',
-        url: 'https://zhifeclub.github.io/front-end-learn/resource/demos/html/tags'
+        url: 'https://zhifeclub.github.io/front-end-learn/resource/demos/html/complex'
       }]
     }, {
       type: 'CSS',

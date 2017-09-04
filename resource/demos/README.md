@@ -2,7 +2,7 @@
 ## 目录
 * HTML
   * [页面的基本结构](https://zhifeclub.github.io/front-end-learn/resource/demos/html/struct)
-  * [常见标签](https://zhifeclub.github.io/front-end-learn/resource/demos/html/tags)
+  * [常见标签](https://zhifeclub.github.io/front-end-learn/resource/demos/html/complex)
 * CSS
   * [常用样式](https://zhifeclub.github.io/front-end-learn/resource/demos/css/normal-style)
   * [rem 用法](https://zhifeclub.github.io/front-end-learn/resource/demos/css/rem/)
