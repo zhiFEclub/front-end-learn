@@ -7,5 +7,6 @@
   * [常用样式](https://zhifeclub.github.io/front-end-learn/resource/demos/css/)
   * [rem 用法](https://zhifeclub.github.io/front-end-learn/resource/demos/rem/)
 * JavaScipt
+  * [循环](https://zhifeclub.github.io/front-end-learn/resource/demos/loop/)
   * [函数](https://zhifeclub.github.io/front-end-learn/resource/demos/function/)
 * 综合

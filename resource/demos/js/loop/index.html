@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>js 循环示例</title>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+</head>
+<body>
+  <script>
+    // 遍历数组
+    var arr = ['a', 'b', 'c']
+    // 方法1
+    for(var i = 0; i < arr.length; i++) {
+      console.log(`下标：${i}，值：${arr[i]}`)
+    }
+    outputSplit()
+    // 方法2
+    arr.forEach(function (value, index) {
+      console.log(`下标：${index}，值：${value}`)
+    })
+    outputSplit()
+
+    // 遍历字符串
+    var str = 'abcd'
+    // 方法1
+    for(var i = 0; i < str.length; i++) {
+      console.log(`下标：${i}，值：${str.charAt(i)}`)
+    }
+    outputSplit()
+
+
+    // 方法2。 将字符串转化成数组
+    str.split('').forEach(function (value, index) {
+      console.log(`下标：${index}，值：${value}`)
+    })
+    outputSplit()
+
+    // 遍历对象
+    var obj = {name: 'Joel', hobby: '动画'}
+    for (var key in obj) {
+      console.log(`key：${key}，值：${obj[key]}`)
+    }
+
+
+    function outputSplit() {
+      console.log('*************')
+    }
+
+  </script>
+</body>
+</html>
