@@ -41,6 +41,19 @@
   <h3>英文字符间的间距</h3>
   <span style="letter-spacing: 1em;">字之间的间距 A Fox Run</span>
   <h2>背景</h2>
+  <h3>默认写法</h3>
+  <div style="background: url(bg.jpg);text-align: center;">默认的</div>
+  <h3>内容和背景图的中间贴在一起</h3>
+  <div style="margin: 10px auto;width: 500px; height: 500px;background: url(bg.jpg) center center;"></div>
+  <h3>内容和背景图的右上角贴在一起</h3>
+  <div style="margin: 10px auto;width: 500px; height: 500px;background: url(bg.jpg) right top;"></div>
+  <h3>不拉伸，显示全图片</h3>
+  <div style="margin: 10px auto;width: 200px; height: 100px;background: url(bg.jpg) center center #eee no-repeat;background-size: contain;"></div>
+  <h3>不拉伸，显示全图片，重复</h3>
+  <div style="margin: 10px auto;width: 200px; height: 100px;background: url(bg.jpg) center center #eee;background-size: contain;"></div>
+  <h3>拉伸，图片和元素一样大</h3>
+  <div style="margin: 10px auto;width: 200px; height: 100px;background: url(bg.jpg);background-size: 100% 100%;"></div>
+
   <h2>边框</h2>
   <div class="ly-ib" style="width: 60px;height: 60px;border: 1px solid;">实线框</div>
   <div class="ly-ib" style="width: 60px;height: 60px;border: 1px dashed red;">虚线框</div>
@@ -48,12 +61,17 @@
   <div class="ly-ib" style="width: 60px;height: 60px;border: 1px dotted red;">点线框</div>
   <div class="ly-ib" style="width: 60px;height: 60px;border: 10px groove red;">不一样的框</div>
   <h2>轮廓</h2>
+  <div class="ly-ib" style="width: 60px;height: 60px;outline: 1px solid;">实线</div>
+  <div class="ly-ib" style="width: 60px;height: 60px;outline: 1px dashed red;">虚线</div>
   <h2>光标</h2>
   <span style="cursor: default;">默认</span>
   <span style="cursor: pointer;">手形</span>
   <span style="cursor: not-allowed;">禁用</span>
   <span style="cursor: text;">文字选择</span>
   <h2>显示</h2>
+  <h3>透明度</h3>
+  <p style="opacity: 0.6;background-color: #f00;">透明度是0.6(元素里的所有内容都会变的半透明)</p>
+  <p style="background-color: rgba(255,0,0,0.6);">背景色的透明度是0.6</p>
   <h2></h2>
   <h2></h2>
 </body>
