@@ -315,10 +315,10 @@
       type: 'JavaScipt',
       content: [{
         name: '循环',
-        url: 'https://zhifeclub.github.io/front-end-learn/resource/demos/loop/'
+        url: 'https://zhifeclub.github.io/front-end-learn/resource/demos/js/loop/'
       },{
         name: '函数',
-        url: 'https://zhifeclub.github.io/front-end-learn/resource/demos/function/'
+        url: 'https://zhifeclub.github.io/front-end-learn/resource/demos/js/function/'
       }]
     }]
 
