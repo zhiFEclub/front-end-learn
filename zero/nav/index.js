@@ -65,14 +65,17 @@
         name: '页面概要',
         url:'http://www.jianshu.com/p/9497b504bfbe'
       }, {
-        name: '简单的计算器',
-        url:'http://www.jianshu.com/p/ad400f0fb515'
-      }, {
+        name: '页面滚动动画',
+        url: 'http://www.jianshu.com/p/a9bb687f6c38'
+      },{
         name: '代办事宜',
         url:'http://www.jianshu.com/p/10161620505a'
       }, {
         name: '列表页',
         url:'http://www.jianshu.com/p/006ed2970a26'
+      }, {
+        name: '简单的计算器',
+        url:'http://www.jianshu.com/p/ad400f0fb515'
       }]
     }, {
       type: 'Bootstrap',
@@ -83,12 +86,12 @@
     }, {
       type: 'Vue',
       content: [{
-        name: '简单的计算器',
-        url: 'http://www.jianshu.com/p/875bbcfbd2ea'
-      }, {
         name: '代办事宜',
         url: 'http://www.jianshu.com/p/651fc8794b8e'
-      }]
+      }, {
+        name: '简单的计算器',
+        url: 'http://www.jianshu.com/p/875bbcfbd2ea'
+      }, ]
     }, {
       type: '综合任务',
       content: [{

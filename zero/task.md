@@ -22,16 +22,17 @@
 
 ### jQuery 任务
 1. [页面概要](http://www.jianshu.com/p/9497b504bfbe)
-1. [简单的计算器](http://www.jianshu.com/p/ad400f0fb515)
 1. [代办事宜](http://www.jianshu.com/p/10161620505a)
+1. [页面滚动动画](http://www.jianshu.com/p/a9bb687f6c38)
 1. [列表页](http://www.jianshu.com/p/006ed2970a26)
+1. [简单的计算器](http://www.jianshu.com/p/ad400f0fb515)
 
 ### Bootstrap 任务
 1. [Bootstrap 练习题](http://www.jianshu.com/p/10ba2b7b932b)
 
 ### Vue 任务
-1. [简单的计算器](http://www.jianshu.com/p/875bbcfbd2ea)
 1. [代办事宜](http://www.jianshu.com/p/651fc8794b8e)
+1. [简单的计算器](http://www.jianshu.com/p/875bbcfbd2ea)
 
 ### 综合任务
 1. [Web版 干货集中营](http://www.jianshu.com/p/e8567632454e)
