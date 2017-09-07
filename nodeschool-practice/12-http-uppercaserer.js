@@ -1,10 +1,8 @@
 var port = process.argv[2]
-var filePath = process.argv[3]
 var fs = require('fs')
 
 var http = require('http')
 var server = http.createServer(function(req, res) {
-  console.log(req.method)
   if(req.method === 'POST') {
     var body = ''
     req.on('data', function(chunk) {
