@@ -2,7 +2,7 @@
 ![](http://upload-images.jianshu.io/upload_images/7219342-44c7c3c80612fea9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 介绍
-[NodeSchool](https://nodeschool.io/zh-cn/) 是一个针对初学者，教授 Web 开发技能的免费开源教程（NodeSchool 包含一堆教程，不仅仅是 Node.js 的）。
+[NodeSchool](https://nodeschool.io/zh-cn/) 是一个针对初学者，教授 Web 开发技能的免费开源教程（NodeSchool 包含一堆教程，不仅仅是 Node.js 的）。 
 
 NodeSchool 的教程由一系列任务构成，每个任务除了常规的描述，还有详细的提示。如下图所示：
 
@@ -48,7 +48,7 @@ learnyounode run 程序文件.js
 ## 验证代码
 在确定任务完成后，用如下命令验证你的程序与任务的要求是否一致：
 ```
-learnyounode run 程序文件.js
+learnyounode verify 程序文件.js
 ```
 
 上面命令运行完成后，会生成测试报告。如果验证成功，该课程会被标记为`完成`。如果失败，可以在测试报告中观察程序的预期值和实际的值的差异，修改代码后，执行 `learnyounode run 程序文件.js` 再进行验证。
@@ -58,4 +58,4 @@ learnyounode run 程序文件.js
 ## 更多课程
 上文提到是 NodeSchool 中 Node.js 相关的教程，除此之外，NodeSchool 还包含： `JavaScript`，`WebGL`，`函数式编程`，`Git`， `npm` 等一堆课程。这些课程可以在[官网](https://nodeschool.io/zh-cn/)的首页中找到。
 
-大家会用学会 NodeSchool 了吗~ 一起学起来吧！ 
+大家会用学会 NodeSchool 了吗~ 点击[这里](http://www.jianshu.com/p/522129601ee5) 报名，一起学起来吧！
