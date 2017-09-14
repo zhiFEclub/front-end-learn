@@ -3,7 +3,7 @@
 
 ## 注册账号
 1. [简书账号](https://www.jianshu.com/sign_up) 用来放总结文章。
-2. [RunJS 帐号](http://runjs.cn/) 或 [GitHub账号](https://github.com/join) 用来放代码。对于新手，可以先用 RunJS，以后再学 Git。
+2. [CodePen 帐号](https://codepen.io/) 或 [GitHub账号](https://github.com/join) 用来放代码。对于新手，可以先用 CodePen，以后再学 Git。
 3. [提交帐号的信息](https://www.wenjuan.com/s/2URrqy/)
 
 ## 下载软件
