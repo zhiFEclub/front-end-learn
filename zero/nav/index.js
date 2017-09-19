@@ -110,6 +110,9 @@
       content: [{
         name: '前端介绍',
         url: 'http://www.jianshu.com/p/6335956a1bad'
+      },{
+        name: '前端学习资源精选',
+        url: 'http://www.jianshu.com/p/ced13beaaec3'
       },
       ]
     },
