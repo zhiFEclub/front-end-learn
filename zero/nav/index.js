@@ -365,6 +365,12 @@
     },{
       name: 'Git 参考手册',
       url: 'http://gitref.justjavac.com/'
+    },{
+      name: 'Emmet 快捷键',
+      url: 'https://docs.emmet.io/cheat-sheet/'
+    },{
+      name: 'Markdown 新手指南',
+      url: 'http://www.jianshu.com/p/q81RER'
     }]
   },{
     id: 'question',
@@ -383,7 +389,7 @@
       url: 'http://www.jianshu.com/p/fe316ff6278a'
     },{
       name: 'jQuery 问题汇总',
-      url: 'http://www.jianshu.com/p/878b7c8e2773'
+      url: 'http://www.jianshu.com/p/e421bbc216ff'
     },{
       name: 'Vue.js 问题汇总',
       url: 'http://www.jianshu.com/p/26de74d7444c'
