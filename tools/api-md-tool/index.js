@@ -1,5 +1,7 @@
-// api-tool add
-// api-tool search xxx
+// api-tool add 新增
+// api-tool 显示全部。生成 html，打开？
+// api-tool search xxx ：搜索
+// 参数那块是不是用 table 来写更好？
 var fs = require('fs')
 var marked = require('marked')
 
