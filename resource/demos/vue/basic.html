@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vue 基础写法</title>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+  <style>
+    [v-cloak] {
+      display: none;
+    }
+    .boy {
+      color: blue;
+    }
+    .girl {
+      color: pink;
+    }
+  </style>
+</head>
+<body>
+  <div id="app" v-cloak>
+    <h1>个人信息</h1>
+    <dl>
+      <dt>姓名：</dt>
+      <dd>{{name}}</dd>
+    </dl>
+    <dl>
+      <dt>性别：</dt>
+      <dd :class="sex === 1 ? 'boy' : 'girl'">
+        {{sex === 1 ? '男' : '女'}}
+      </dd>
+    </dl>
+    <dl v-if="job">
+      <dt>职位：</dt>
+      <dd>{{job}}</dd>
+    </dl>
+    <dl>
+      <dt>爱好：</dt>
+      <dd>
+        <ul>
+          <li v-for="item in hobbys">
+            {{item}}
+          </li>
+        </ul>
+      </dd>
+    </dl>
+    <dl>
+      <dt>兴趣广泛：</dt>
+      <dd>
+        {{hasManyHobby()}}
+      </dd>
+    </dd>
+    当前时间: {{time}}
+  </div>
+  不会被解析->{{name}}
+  <script src="https://unpkg.com/vue@2.4.4/dist/vue.js"></script>
+  <script>
+    /*
+     1. 用模板语法将数据渲染进 DOM 的系统。
+     2. 在 {{}} 中才能用数据和方法。{{}} 中也支持 js 表达式。
+     3. 模板语法要会这些
+       1. v-if 和 v-show
+       2. v-for
+       3. 在属性上输出值
+    */
+    new Vue({
+      // 在 #app 下的
+      el: '#app',
+      // 数据必须必须写在 data 下面
+      data: {
+        name: 'Joel',
+        sex: 1,
+        hobbys: ['编程','动画','英剧', '瞎折腾'],
+        // job: '前端开发',
+        job: null,
+        time: null
+      },
+      // 方法必须必须写在 methods 下面
+      methods: {
+        hasManyHobby: function () {
+          return this.hobbys.length > 3 ? '是' : '否'
+        },
+        getTime() {
+          var now = new Date()
+          return [now.getHours(), now.getMinutes(), now.getSeconds()].join(':')
+        }
+      },
+      mounted: function() {
+        var vm = this
+        setInterval(function() {
+          vm.time = vm.getTime()
+        }, 1000)
+      }
+    })
+  </script>
+</body>
+</html>

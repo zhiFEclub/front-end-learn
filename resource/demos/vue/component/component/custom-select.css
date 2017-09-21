@@ -1,0 +1,30 @@
+.c-select {
+  position: relative;
+}
+
+.c-select__input {
+  box-sizing: border-box;
+  height: 30px;
+}
+
+.c-select__item-wrap {
+  position: absolute;
+  left: 0;
+  top: 30px;
+  margin: 0;
+  padding: 0;
+  min-width: 200px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.c-select__item {
+  padding-left: 10px;
+  list-style: none;
+  line-height: 1.5;
+}
+
+.c-select__item:hover {
+  background-color: #f60;
+  color: #fff;
+}

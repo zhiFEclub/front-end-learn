@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>自定义下拉框</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  body {
+    margin: 0;
+  }
+  
+  #app {
+    width: 400px;
+    margin: 10px auto;
+  }
+  </style>
+  <link rel="stylesheet" href="component/custom-select.css">
+</head>
+
+<body>
+  <div id="app">
+    <custom-select :list="list" @changed="changed"></custom-select>
+    <div v-show="name">
+      选择的名称: {{name}}，值：{{value}}
+    </div>
+  </div>
+  <script type="text/x-template" id="select-tempalte">
+    <div class="c-select">
+      <input type="search" class="c-select__input" @click="showSelect = !showSelect" v-model="name">
+      <!-- <button type="button">查询</button> -->
+      <ul v-show="showSelect" class="c-select__item-wrap">
+        <li @click="select(item)" class="c-select__item" v-for="item in filteredList">{{item.name}}</li>
+      </ul>
+    </div>
+  </script>
+  <script src="https://unpkg.com/vue@2.2.6"></script>
+  <script src="component/custom-select.js"></script>
+  <script>
+  ; {
+    var app = new Vue({
+      el: '#app',
+      data: {
+        list: [{
+          name: 'HTML+CSS',
+          value: 'basic'
+        }, {
+          name: 'HTML5+CSS3',
+          value: 'medium'
+        }, {
+          name: 'JavaScript',
+          value: 'js'
+        }, {
+          name: 'Vue',
+          value: 'mvvm'
+        }],
+        name: '',
+        value: ''
+      },
+      methods: {
+        changed(item) {
+          this.name = item.name
+          this.value = item.value
+        }
+      }
+
+    })
+  }
+  </script>
+</body>
+
+</html>

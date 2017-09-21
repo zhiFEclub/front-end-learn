@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>事件</title>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+  
+  <style>
+    [v-cloak] {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="app" v-cloak>
+    <button @click="clickMe">点我</button>
+    <p>我被点了 {{clickNum}} 次</p>
+
+    <input type="text" @keyup="keyupHandler" v-model="content">
+    <p>用户输入的内容: {{content}}</p>
+    <p>用户输入过的内容 {{inputed}}</p>
+  </div>
+  <script src="https://unpkg.com/vue@2.4.4/dist/vue.js"></script>
+  <script>
+    new Vue({
+      el: '#app',
+      data: {
+        clickNum: 0,
+        content: null,
+        inputed: ''
+      },
+      methods: {
+        clickMe: function () {
+          this.clickNum++
+        },
+        keyupHandler: function(event) {
+          this.inputed += event.key
+        }
+      }
+    })
+  </script>
+</body>
+</html>

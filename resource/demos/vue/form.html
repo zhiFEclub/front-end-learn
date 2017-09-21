@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>表单</title>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+  
+  <style>
+    [v-cloak] {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="app" v-cloak>
+    <input type="text" v-model="text">
+    <textarea v-model="text"></textarea>
+    <p>{{text}}</p>
+
+    选型1:<input type="radio" name="a" value="a" v-model="radio"> <br>
+    选型2:<input type="radio" name="a" value="b" v-model="radio"> <br>
+    选型3 <input type="radio" name="a" value="c" v-model="radio"> <br>
+
+    <p>{{radio}}</p>
+
+    选型1:<input type="checkbox" name="a" value="a" v-model="checkbox"> <br>
+    选型2:<input type="checkbox" name="a" value="b" v-model="checkbox"> <br>
+    选型3 <input type="checkbox" name="a" value="c" v-model="checkbox"> <br>
+    
+    <p>{{checkbox}}</p>
+    <button @click="chooseAll(true)">全选</button>
+    <button @click="chooseAll(false)">全部取消</button>
+
+    <br>
+    <select v-model="select">
+      <option :value="item.value" v-for="item in options">{{item.name}}</option>
+    </select>
+    {{select}}
+
+  </div>
+  <script src="https://unpkg.com/vue@2.4.4/dist/vue.js"></script>
+  <script>
+    new Vue({
+      el: '#app',
+      data: {
+        text: null,
+        radio: null,
+        checkbox: [], // 这个一定要设置空数组
+        select: null,
+        options: [
+        {
+          name: '请选择',
+          value: ''
+        },
+        {
+          name: '选项1',
+          value: 1
+        },
+        {
+          name: '选项2',
+          value: 2
+        }]
+      },
+      methods: {
+        chooseAll: function(isSelectAll) {
+          if(isSelectAll) {
+            this.checkbox = ['a', 'b', 'c']
+          } else {
+            this.checkbox = []
+          }
+        }
+      }
+    })
+  </script>
+</body>
+</html>
