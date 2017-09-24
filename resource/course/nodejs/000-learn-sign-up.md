@@ -1,4 +1,6 @@
 # 两周入门 Node.js : 以实践的方式学 Node.js 报名贴
+![](http://upload-images.jianshu.io/upload_images/7219342-3c85a8cc45d16e98.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 本活动用 [NodeSchool](https://nodeschool.io/zh-cn/)([用法](http://www.jianshu.com/p/d93ebe96e51e)) 来学 Node.js。选 NodeSchool 的几个理由：
 * 以实践的方式学，使学习主动，有目标。
 * 教程质量高，而且支持中文。

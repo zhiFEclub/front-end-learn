@@ -136,7 +136,7 @@
       type: 'HTML',
       content: [{
         name: 'HTML 介绍',
-        url: 'http://www.jianshu.com/p/e1517a713556'
+        url: 'http://www.jianshu.com/p/878b7c8e2773'
       },{
         name: '常见标签和属性',
         url: 'http://www.jianshu.com/p/e1517a713556'
