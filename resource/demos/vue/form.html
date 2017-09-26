@@ -49,6 +49,9 @@
         select: null,
         options: [
         {
+          xx:'xx'
+        },
+        {
           name: '请选择',
           value: ''
         },
@@ -69,6 +72,11 @@
             this.checkbox = []
           }
         }
+      },
+      mounted: function(){
+        this.options = this.options.filter(function(item) {
+          return item.name !== undefined && item.value !== undefined
+        })
       }
     })
   </script>
