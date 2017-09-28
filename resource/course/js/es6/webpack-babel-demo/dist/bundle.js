@@ -70,16 +70,10 @@
 "use strict";
 
 
-var _templateObject = _taggedTemplateLiteral(["ES6"], ["ES6"]);
-
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
-
 {
-  var greet = function greet() {
-    var str = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : "World";
-    return console.log("Hello " + str);
-  };
-  greet(_templateObject);
+  var a = [1, 2, 3];
+  var b = [2, 3];
+  var res = [].concat(a, b);
 }
 
 /***/ })
