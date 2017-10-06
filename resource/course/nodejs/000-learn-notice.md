@@ -1,4 +1,4 @@
-# 学 Node.js 群公共
+# 学 Node.js 群公告
 欢迎大家参加知行社举办的 Node.js 入门的活动。
 
 我们的活动以做 NodeSchool 的任务为主。NodeSchool 的用法见 -> http://www.jianshu.com/p/d93ebe96e51e
